@@ -1,5 +1,7 @@
 <h1>Your text has: {{ count }} words</h1>
 
+<a href= "{% url 'home' %}">Start again</a>
+
 <h1>Your Text</h1>
 {{ fulltext }}
 
@@ -7,7 +9,7 @@
 
 {% for word, counttotal in sortedwords %}
 
-{{ word }} -- {{ counttotal }}
+{{ word }} - {{ counttotal }} time(s)
 
 
 <br/>
