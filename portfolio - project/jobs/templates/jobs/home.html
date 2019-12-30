@@ -7,9 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="/docs/4.1/assets/img/favicons/favicon.ico">
 
-    <title>Album example for Bootstrap</title>
+    <title>Filipe Valadares</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.1/examples/album/">
 
@@ -22,16 +21,16 @@
 
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Filipe Valadares</a>
+        <a class="navbar-brand" href="{% url 'home' %}">Filipe Valadares</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link" href="#">Twitter</a>
+            <a class="nav-item nav-link" href="https://www.linkedin.com/in/filipe-valadares-dev/">Linkedin</a>
             <a class="nav-item nav-link" href="{% static 'resume.pdf' %}">Resume</a>
-            <a class="nav-item nav-link" href="#">Blog</a>
+            <a class="nav-item nav-link" href="{% url 'allblogs' %}">Blog</a>
             <>
       </nav>
     </header>
@@ -45,7 +44,7 @@
           <p>
             <a href="mailto:filipe1108@gmail.com" class="btn btn-primary my-2">Email Me</a>
           </p>
-          <img src="{% static 'filipe.jpg' %}" height=300 width=300/>
+          <img src="{% static 'filipe.jpg' %}" height=400 width=250/>
         </div>
       </section>
 
